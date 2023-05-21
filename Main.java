@@ -3,7 +3,7 @@ public class Main {
         int bufer;                                      // переменная для временного хранения элементов массива
         int[] array = new int[23];
         for (int i = 0; i < array.length; i++) {
-            array[i] = (int) (Math.random() * 10);      // заполняеи массив случайными числами от 0 до 10
+            array[i] = (int) (Math.random() * 10);      // заполняем массив случайными числами от 0 до 10
             System.out.print(array[i] + " ");
         }
         for (int i = 0, j = array.length - 1; i < j; i++, j--) {
